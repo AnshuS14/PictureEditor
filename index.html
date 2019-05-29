@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="shortcut icon" type="image/png" href="images/pageIcon.png"/>
+        <title>Picture Editor</title>
+    </head>
+    <body>
+        <h2>
+            <span class="h1">Picture Editor</span>
+        </h2>
+        <div class="controls">
+            <!-- spacing -->
+            <label for="spacing">Border Spacing : </label>
+            <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+            
+            <!-- blur -->
+            <label for="blur">Blur : </label>
+            <input type="range" name="blur" min="0" max="25" value="0" data-sizing="px">
+            
+            <!-- border color -->
+            <label for="base">Border Color : </label>
+            <input type="color" name="base" value="#ffffff">
+        </div>
+        <img src="images/background.jpg">
+    </body>
+
+    <script src="Script/index.js"></script>
+</html>
